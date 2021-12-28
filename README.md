@@ -6,18 +6,6 @@ Projeto backend de Orçamento Pessoal simples para estudos ou inicio do desenvol
 
 ## Funcionalidades
 **Categorias**
-<table >
-    <tr>
-        <td> Method </td>
-        <td> Path </td>
-        <td> Descrição </td>
-    </tr>
-    <tr>
-        <td> GET </td>
-        <td> teste </td>
-        <td> TESTE </td>
-    </tr>
-</table>
 
 | Method | Path                       | Descrição                        |
 | ------ | -------------------------- | -------------------------------- |
@@ -29,6 +17,7 @@ Projeto backend de Orçamento Pessoal simples para estudos ou inicio do desenvol
 ____
 
 **Tipo de Transação**
+
 | Method | Path                                   | Descrição                                       |
 | ------ | -------------------------------------- | ----------------------------------------------- |
 | GET    | ../transactiontype                     | Retorna todos os tipos de transações existentes |
@@ -40,6 +29,7 @@ ____
 ____
 
 **Transação**
+
 | Method | Path                           | Descrição                                      |
 | ------ | ------------------------------ | ---------------------------------------------- |
 | GET    | ../transaction/{userId}        | Retorna o tipo de transação pelo id do usuário |
@@ -50,6 +40,7 @@ ____
 ____
 
 **Lançamento**
+
 | Method | Path                       | Descrição                               |
 | ------ | -------------------------- | --------------------------------------- |
 | GET    | ../release/{transactionId} | Retorna os lançamentos de uma transação |
