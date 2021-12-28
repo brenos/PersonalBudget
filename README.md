@@ -6,6 +6,19 @@ Projeto backend de Orçamento Pessoal simples para estudos ou inicio do desenvol
 
 ## Funcionalidades
 **Categorias**
+<table >
+    <tr>
+        <td> Method </td>
+        <td> Path </td>
+        <td> Descrição </td>
+    </tr>
+    <tr>
+        <td> GET </td>
+        <td> teste </td>
+        <td> TESTE </td>
+    </tr>
+</table>
+
 | Method | Path                       | Descrição                        |
 | ------ | -------------------------- | -------------------------------- |
 | GET    | ../categorie/{userId}      | Retorna as categorias do usuário |
